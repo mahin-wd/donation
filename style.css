@@ -7,6 +7,12 @@ body{
     background-repeat: no-repeat;
 }
 
+section{
+    display: block;
+    margin-top: 100px;
+    text-align: center;
+}
+
 .top{
     margin-top: 20%;
     padding: 0 10px;
@@ -28,18 +34,12 @@ body{
     margin-top: 50px;
 }
 
- a{
+a{
     text-decoration: none;
     color: white;
     background-color: #0d9e00;
     padding: 5px 8px;
     border-radius: 3px;
-}
-
-section{
-    display: block;
-    margin-top: 100px;
-    text-align: center;
 }
 
 .donation{
@@ -128,7 +128,7 @@ section{
     float: right;
 }
 
-.size{
+.common{
     height: 250px;
     width: 80%;
     align-items: center;
@@ -155,7 +155,7 @@ section{
     text-align: center;
 }
 
-.form{
+.contact{
     align-items: center;
     display: flex;
     background-color: #ffeecf;
@@ -167,7 +167,7 @@ section{
     width: 500px;
 }
 
-.form input{
+.contact input{
     border: none;
     height: 25px;
     border-radius: 3px;
