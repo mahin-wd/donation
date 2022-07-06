@@ -9,8 +9,13 @@ body{
 
 .top{
     margin-top: 20%;
+    padding: 0 10px;
     text-align: center;
     color: white;
+}
+
+.top h1{
+    font-size: 35px;
 }
 
 .top p{
@@ -26,19 +31,19 @@ body{
  a{
     text-decoration: none;
     color: white;
-    background-color: tomato;
+    background-color: #0d9e00;
     padding: 5px 8px;
     border-radius: 3px;
 }
 
 section{
     display: block;
-    margin-top: 80px;
+    margin-top: 100px;
     text-align: center;
 }
 
 .donation{
-    margin-top: 300px;
+    margin-top: 200px;
 }
 
 .text h1{
@@ -50,7 +55,7 @@ section{
 
 .text p{
     color: #636363;
-    font-size: 10px;
+    font-size: 15px;
 
 }
 
@@ -65,10 +70,14 @@ section{
 }
 
 #active{
-    border: 3px solid tomato;
-    background-color: #ffded8;
+    border: 3px solid #0d9e00;
+    background-color: #a5ff9d;
     border-radius: 3px;
-    color: tomato;
+    color: #0d9e00;
+}
+
+.donate{
+    background-color: #0d9e00;
 }
 
 #input{
@@ -77,7 +86,7 @@ section{
     height: 20px;
     width: 80%;
     border: none;
-    border-bottom: 1px solid #acacac;
+    border-bottom: 2px solid #ababab;
 }
 
 .card{
@@ -166,6 +175,10 @@ section{
     margin-right: 10px;
 }
 
+.email{
+    background-color: tomato;
+}
+
 footer{
     margin-top: 20px;
     padding: 10px;
@@ -175,7 +188,8 @@ footer{
 }
 
 footer h2{
-    color: tomato;
+    font-family: 'Courgette', cursive;
+    color: #35ff23;
 }
 
 footer h5{
